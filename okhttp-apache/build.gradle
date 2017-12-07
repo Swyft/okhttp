@@ -1,7 +1,12 @@
 
+repositories {
+  mavenCentral()
+}
+ 
 description = 'OkHttp Apache HttpClient'
 dependencies {
   compile project(':okhttp')
+  compile 'org.apache.httpcomponents:httpclient:4.3.6'
   testCompile project(':okhttp-testing-support')
     testCompile group: 'junit', name: 'junit', version:'4.11'
   testCompile project(':mockwebserver')
