@@ -1,0 +1,8 @@
+
+description = 'OkHttp Web Socket Tests'
+dependencies {
+  compile project(':okhttp-ws')
+  testCompile project(':okhttp-testing-support')
+    testCompile group: 'junit', name: 'junit', version:'4.11'
+  testCompile project(':mockwebserver')
+}

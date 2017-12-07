@@ -1,0 +1,7 @@
+group = 'com.squareup.okhttp3.sample'
+description = 'Sample: Guide'
+dependencies {
+  compile project(':okhttp')
+  compile project(':okhttp-ws')
+    compile group: 'com.google.code.gson', name: 'gson', version:'2.2.3'
+}

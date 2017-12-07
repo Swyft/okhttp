@@ -1,0 +1,10 @@
+
+description = 'OkCurl'
+dependencies {
+  compile project(':okhttp')
+    compile group: 'org.bouncycastle', name: 'bcprov-jdk15on', version:'1.50'
+    compile group: 'io.airlift', name: 'airline', version:'0.7'
+    compile group: 'com.google.guava', name: 'guava', version:'16.0'
+  testCompile project(':okhttp-testing-support')
+    testCompile group: 'junit', name: 'junit', version:'4.11'
+}

@@ -1,0 +1,5 @@
+
+description = 'OkHttp Web Sockets'
+dependencies {
+  compile project(':okhttp')
+}

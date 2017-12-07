@@ -1,0 +1,11 @@
+
+description = 'OkHttp Tests'
+dependencies {
+    compile group: 'com.squareup.okio', name: 'okio', version:'1.6.0'
+  compile project(':okhttp')
+  compile project(':okhttp-urlconnection')
+  testCompile project(':okhttp-testing-support')
+    testCompile group: 'junit', name: 'junit', version:'4.11'
+  testCompile project(':mockwebserver')
+    testCompile group: 'com.google.code.gson', name: 'gson', version:'2.2.3'
+}

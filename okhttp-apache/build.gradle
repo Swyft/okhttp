@@ -1,0 +1,9 @@
+
+description = 'OkHttp Apache HttpClient'
+dependencies {
+  compile project(':okhttp')
+  testCompile project(':okhttp-testing-support')
+    testCompile group: 'junit', name: 'junit', version:'4.11'
+  testCompile project(':mockwebserver')
+    compileOnly group: 'org.apache.httpcomponents', name: 'httpclient', version:'4.2.2'
+}

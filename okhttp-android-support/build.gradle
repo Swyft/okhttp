@@ -1,0 +1,8 @@
+
+description = 'OkHttp Android Platform Support'
+dependencies {
+  compile project(':okhttp-urlconnection')
+  testCompile project(':okhttp-testing-support')
+    testCompile group: 'junit', name: 'junit', version:'4.11'
+  testCompile project(':mockwebserver')
+}

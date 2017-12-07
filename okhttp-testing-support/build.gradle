@@ -1,0 +1,6 @@
+
+description = 'OkHttp test support classes'
+dependencies {
+    compile group: 'junit', name: 'junit', version:'4.11'
+  compile project(':okhttp')
+}

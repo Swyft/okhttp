@@ -1,0 +1,6 @@
+
+description = 'OkHttp'
+dependencies {
+    compile group: 'com.squareup.okio', name: 'okio', version:'1.6.0'
+    compileOnly group: 'com.google.android', name: 'android', version:'4.1.1.4'
+}
